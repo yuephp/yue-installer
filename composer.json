@@ -1,0 +1,32 @@
+{
+  "name": "yuephp/yue-installer",
+  "description": "YuePHP Installer",
+  "keywords": [
+    "yuephp",
+    "yue"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Sean",
+      "email": "jxzsxsp@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Yue\\Installer\\Console\\": "src/"
+    }
+  },
+  "require": {
+    "league/climate": "^3.2"
+  },
+  "bin": [
+    "yue"
+  ],
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
